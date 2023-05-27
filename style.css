@@ -1,0 +1,31 @@
+#gameBoard {
+    border: 3px solid;
+
+}
+
+#scoreText {
+    font-size: 100px;
+}
+
+#resetBtn{
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+#gameContainer{
+    text-align: center;
+}
+
+body{
+    background: linear-gradient(to right, lightpink, lightgreen);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#resetBtn:hover{
+    background-color: rgba(255,255,255,0.9);
+}
